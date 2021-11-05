@@ -1,18 +1,29 @@
+$tablet: 768px;
+$yellow: #f9a03f;
+$white: #fffbff;
+$pink: #d45113;
+$blue: #2b303a;
+$green: #06a77d;
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: "Righteous", sans-serif;
-  background: #fffcf9;
-  color: #26547c;
+  background: $yellow;
+  color: $white;
   padding: 0;
   margin: 0;
 }
 
+a {
+  color: $pink;
+}
+
 main {
-  border: 20px solid #ffd166;
-  padding: 50px;
+  border: 10px solid $white;
+  padding: 20px;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -20,17 +31,83 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-y: scroll;
+
+  @media screen and (min-width: $tablet) {
+    padding: 50px;
+  }
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 32px;
+  @media screen and (min-width: $tablet) {
+    font-size: 64px;
+  }
 }
 
 .intro {
   text-align: center;
 
   p {
-    font-size: 32px;
-    color: #06d6a0;
+    color: $white;
+    font-size: 24px;
+
+    @media screen and (min-width: $tablet) {
+      font-size: 32px;
+    }
+  }
+
+  .coming-soon {
+    color: $yellow;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .cta {
+    background: $pink;
+    padding: 10px 20px;
+    color: $white;
+    border-radius: 2px;
+    color: $white;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease-in;
+    font-size: 18px;
+    margin-top: 50px;
+    display: inline-block;
+
+    &:hover {
+      transition: box-shadow 0.2s ease-in;
+      box-shadow: 5px 5px 0 1px $yellow;
+    }
+  }
+}
+
+.content {
+  max-width: 600px;
+  text-align: left;
+  font-size: 18px;
+
+  p,
+  li {
+    font-family: sans-serif;
+  }
+
+  li {
+    margin-bottom: 1em;
+  }
+}
+
+footer {
+  color: $white;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+
+  a {
+    text-decoration: none;
   }
 }
