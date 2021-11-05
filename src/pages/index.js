@@ -10,6 +10,7 @@ const IndexPage = () => {
           <h1>Jacqi and Noah are getting hitched</h1>
           <p>June 4, 2022</p>
           <p>The Bindery in McMinnville, Oregon</p>
+          <p>More info coming soon!</p>
         </div>
       </main>  
     </Layout>
