@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Righteous", sans-serif;
+  background: #fffcf9;
+  color: #26547c;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  border: 10px solid #ffd166;
+  padding: 50px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.intro {
+  text-align: center;
+
+  p {
+    font-size: 32px;
+    color: #06d6a0;
+  }
+}
