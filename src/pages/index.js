@@ -16,7 +16,7 @@ const IndexPage = () => {
           />
         </div>
         <Link className="cta" to="/lodging">
-          → → → Book your lodging today ← ← ←
+          Book your lodging today
         </Link>
         <p class="coming-soon">More info coming soon!</p>
       </main>
