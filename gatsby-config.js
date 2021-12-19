@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Jax and Nono's Wedding",
+    siteUrl: "https://jaxandnono.part",
+    title: "Jacqi Ko & Noah Manger | June 4, 2022",
   },
   plugins: [
     "gatsby-plugin-sass",

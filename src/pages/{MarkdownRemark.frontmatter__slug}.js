@@ -11,7 +11,9 @@ export default function Template({
     <Layout title={frontmatter.title}>
       <main>
         <div className="content">
-          <Link to="/">Home</Link>
+          <Link to="/" class="home-link">
+            ← Home
+          </Link>
           <h1>{frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }}></div>
         </div>
