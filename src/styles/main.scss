@@ -181,6 +181,8 @@ h2 {
   max-width: 600px;
   text-align: left;
   font-size: 20px;
+  padding: 20px;
+  margin: 0 auto;
 
   li {
     margin-bottom: 1em;
@@ -206,4 +208,10 @@ footer {
   a {
     text-decoration: none;
   }
+}
+
+.logo {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
 }
