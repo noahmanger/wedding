@@ -7,6 +7,12 @@ export default function Layout({ title, children }) {
     <React.Fragment>
       <Helmet>
         <title>{title} | Jacqi & Noah Make it Official</title>
+        <script
+          async
+          defer
+          src="https://beampipe.io/js/tracker.js"
+          data-beampipe-domain="jaxandnono.party"
+        ></script>
       </Helmet>
       <div>{children}</div>
     </React.Fragment>
