@@ -161,6 +161,8 @@ h2 {
 }
 
 .cta {
+  font-family: $font-display, sans-serif;
+  font-weight: 700;
   border: 2px solid $secondary;
   padding: 10px 20px;
   color: $secondary;

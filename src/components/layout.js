@@ -1,6 +1,14 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "../styles/main.scss";
 
 export default function Layout({ title, children }) {
-  return <div>{children}</div>;
+  return (
+    <React.Fragment>
+      <Helmet>
+        <title>{title} | Jacqi & Noah Make it Official</title>
+      </Helmet>
+      <div>{children}</div>
+    </React.Fragment>
+  );
 }
