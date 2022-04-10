@@ -24,6 +24,10 @@ $round: 8px;
   font-display: swap;
 }
 
+:root {
+  --app-height: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -222,6 +226,7 @@ p {
   border: 10px solid $secondary;
   width: 100vw;
   height: 100vh;
+  height: var(--app-height);
   display: block;
   overflow-y: scroll;
   position: fixed;

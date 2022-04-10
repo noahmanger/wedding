@@ -5,7 +5,15 @@ import monogram from "../images/monogram.svg";
 
 import "../styles/main.scss";
 
+const appHeight = () => {
+  const doc = document.documentElement;
+  doc.style.setProperty("--app-height", `${window.innerHeight}px`);
+};
+
 export default function Layout({ title, children }) {
+  window.addEventListener("resize", appHeight);
+  appHeight();
+
   return (
     <React.Fragment>
       <Helmet>
