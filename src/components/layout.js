@@ -11,8 +11,10 @@ const appHeight = () => {
 };
 
 export default function Layout({ title, children }) {
-  window.addEventListener("resize", appHeight);
-  appHeight();
+  if (typeof window !== "undefined") {
+    window.addEventListener("resize", appHeight);
+    appHeight();
+  }
 
   return (
     <React.Fragment>
