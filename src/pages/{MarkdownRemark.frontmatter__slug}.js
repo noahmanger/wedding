@@ -1,7 +1,6 @@
 import React from "react";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/layout";
-import monogram from "../images/monogram.png";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -10,12 +9,9 @@ export default function Template({
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout title={frontmatter.title}>
-      <div className="content">
-        <Link to="/">
-          <img class="logo" src={monogram} alt="J & N" />
-        </Link>
+      <div className={`page ${frontmatter.slug}`}>
         <h1>{frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: html }}></div>
+        <div class="content" dangerouslySetInnerHTML={{ __html: html }}></div>
       </div>
     </Layout>
   );
