@@ -35,7 +35,7 @@ Get fancy, but have some fun with it. Think: summer disco.
 
 ### About the space
 
-The ceremony and reception will both be held in [The Bindery](https://www.mcminnvillebindery.com/), which _is_ an indoor venue, but we'll plan on having the big garage bay door open. After the ceremony, we'll be outside for the cocktail hour (under a tent if the weather is bad) while we flip the space for the reception.
+The ceremony and reception will both be held in [The Bindery](https://www.mcminnvillebindery.com/), which _is_ an indoor venue, but we're planning on having the big garage bay door open during the reception. After the ceremony, we'll be outside for the cocktail hour under a tent while we flip the space for the reception.
 
 ### Lodging
 
