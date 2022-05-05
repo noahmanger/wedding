@@ -373,4 +373,10 @@ footer {
     width: 100px;
     display: inline-block;
   }
+
+  li {
+    strong {
+      display: inline;
+    }
+  }
 }

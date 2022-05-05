@@ -9,7 +9,12 @@ slug: details
 
 ### Friday, June 3
 
-TBD.
+If you're going to be in McMinnville on Friday, you're invited to swing by Hotel Oregon where we have a private room booked for a low-key hang. Details:
+
+- **Where**: Hotel Oregon is located at 310 N.E. Evans Street, McMinnville.
+- **When**: 7:30-10pm (we'll probably get there a little closer to 8pm).
+- **Food & Drink**: You can order food and drinks. This will be a no-host bar (i.e. you gotta buy your own)—but don't worry, we've got a killer bar on deck for Saturday.
+- **Dress code**: Wear whatever!
 
 ### Saturday, June 4
 
